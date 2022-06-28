@@ -1,6 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap");
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
+@keyframes dance {
+  10%,
+  90% {
+    transform: translate(-0.5px) scale(1.5);
+  }
+  20%,
+  80% {
+    transform: translate(1px) scale(1.5);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate(-2px) scale(1.5);
+  }
+  40%,
+  60% {
+    transform: translate(2px) scale(1.5);
+  }
+}
+.container-1gYwHN > * {
+  justify-content: flex-end;
+  margin: var(--badge-margin);
+}
+.clickable-1knRMS > img {
+  height: var(--badge-size) !important;
+  width: var(--badge-size) !important;
+}
 img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   transition-delay: 2s;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
