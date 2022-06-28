@@ -1,0 +1,18 @@
+// import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap');
+
+// import the main files, including variables
+@import './variables';
+@import './components/main';
+
+// importing components
+@import './components/spacing';
+@import './components/settings';
+@import './components/images';
+@import './components/popout';
+@import './components/theme';
+@import './components/snippets';
+@import './components/sidebar';
+@import './components/home';
+@import './components/chat';
+@import './components/title-bar';
